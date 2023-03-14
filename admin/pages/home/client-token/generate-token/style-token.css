@@ -1,0 +1,161 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: white;
+  --text-secondary: #ececec;
+  --bg-primary: rgb(23, 127, 135);
+  --bg-secondary: #141418;
+}
+
+body {
+  color: black;
+  background-color: rgb(235, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(23, 127, 135);
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--bg-primary);
+  transition: width 200ms ease;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  filter: grayscale(100%) opacity(0.3);
+  transition: 600ms ease;
+}
+
+.link-text {
+  display: none;
+  margin: 1rem;
+  width: 9rem;
+}
+
+.nav-link img {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102%) contrast(102%);
+}
+
+.nav-link:hover {
+  background-color: rgb(10, 91, 97);
+  color: var(--text-secondary);
+  filter: grayscale(0%) opacity(1);
+}
+
+.fa-secondary {
+  color: white;
+}
+
+.fa-primary {
+  color: rgb(10, 91, 97);
+}
+
+.primeiro-parag {
+  text-align: left;
+  color: rgb(10, 91, 97);
+}
+
+.segundo-parag {
+  color: rgb(10, 91, 97);
+}
+
+h1 {
+  color: rgb(10, 91, 97);
+}
+
+.form-input-radio-client label {
+  color: var(--color-primary);
+  display: inline;
+}
+.form-input-radio-client input {
+  display: inline;
+}
+
+.client-table table {
+  border: 1px solid rgb(23, 127, 135);
+  text-align: center;
+  width: 80%;
+  border-color: var(--bg-primary);
+}
+
+.info-icon img {
+  height: 50px;
+  width: 50px;
+  filter: invert(30%) sepia(23%) saturate(1501%) hue-rotate(136deg)
+    brightness(88%) contrast(95%);
+}
+/*tela de celular*/
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/*tela de pc*/
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5em;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+}

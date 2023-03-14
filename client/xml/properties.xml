@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<array>
+	<date>
+		<city>Jundiaí</city>
+	</date>
+	<properties>
+
+		<property>
+			<name>Casa na Praia</name>
+			<description>Cansada da vida cinza da cidade de SP? Venha para a melhor praia do mundo!</description>
+			<image>beach-house.jpg</image>
+			<rooms>6</rooms>
+			<price>5.000.000.00</price>
+			<bedrooms>2</bedrooms>
+			<address>Copacapana</address>
+			</property>
+
+		<property>
+			<name>Cabana na Floresta</name>
+			<description>Gosta de acampar? Que tal acampar para todo o sempre? Com essa perfeita cabana, o seu sonho pode se tornar realidade!</description>
+			<image>hut.jpg</image>
+			<rooms>4</rooms>
+			<price>2.000.000.00</price>
+			<bedrooms>1</bedrooms>
+			<address>Curitiba</address>
+		</property>
+
+		<property>
+			<name>Apartamento todas as Estrelas</name>
+			<description>Gosta de ver estrelas? Esse apartamente pode ter 5 estrelas, mas voce podera ver todas! </description>
+			<image>apartment.jpg</image>
+			<rooms>4</rooms>
+			<price>3.500.000.00</price>
+			<bedrooms>3</bedrooms>
+			<address>Jardim Europa</address>
+		</property>
+
+		<property>
+			<name>Casa com Piscina</name>
+			<description>Nada melhor que uma casa com piscina para alegrar a garotada e saber mais sobre as suas amizades! hehe</description>
+			<image>pool-house.jpg</image>
+			<rooms>6</rooms>
+			<price>2.800.000.00</price>
+			<bedrooms>2</bedrooms>
+			<address>Alfaville</address>
+		</property>
+		
+	</properties>
+</array>
